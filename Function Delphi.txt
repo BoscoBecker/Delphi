@@ -223,5 +223,5 @@ Begin
   Result := ProcuraPrefixo; //Percores os Array's em procura do prefixo do campo, e o altera com o nome referente ao Prefixo EX: "cod_emp" se terna - "Código Empresa"
   Result := TrimRight(TrimLeft(Result)); // Retira os espaços da Direita e da Esquerda.
   Result := StringReplace(Result,'  ',' ',[rfReplaceAll ]); // Retira Dois espaços e coloca apenas Um.
-  Result := funTroca(Result);   // Trás o campo com as primeiras letras em maiúsculo EX: El Produções de Software
-end;
+  Result := funTroca(Result);   // Trás o campo com as primeiras letras em maiúsculo EX : João Bosco
+end;2,0
