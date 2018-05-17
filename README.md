@@ -1,12 +1,12 @@
 
-  ///Antes de alterar qualquer coisa, por favor ..........................
-  /// FunÁıes feitas por Jo„o Bosco dos Reis Becker & Eduardo JosÈ Effgen,
-  /// funÁıes usadas nos dicion·rios de Dados.
-  /// Antes
-  /// Ex :  cod_pano_conta
-  /// Depois
-  /// Ex :  CÛdigo Plano Conta
-  /// Functions Feitas em : 18/10/2015 }
+   Antes de alterar qualquer coisa, por favor ..........................
+   Fun√ß√µes feitas por Jo√£o Bosco dos Reis Becker & Eduardo Jos√© Effgen,
+   fun√ß√µes usadas nos dicion√°rios de Dados.
+   Antes
+   Ex :  cod_pano_conta
+   Depois
+   Ex :  C√≥digo Plano Conta
+   Functions Feitas em : 18/10/2015 }
 
   /////////////////////////////////////////////////////////////////////
   ///                                                               ///
@@ -16,8 +16,8 @@
   ///   na Linha 4928, depois os array's                            ///
   ///   arrayPrefixo e o arrayNomes                                 ///
   ///   Cada prefixo adicionado no array arrayPrefixo,              ///
-  ///   deve ser obrigatÛriamente adiconado no arrayNomes,          ///
-  ///   E os mesmo est„o ordenados no estilo                        ///
-  ///   "Batalha Naval" continue com o padr„o por favor rsrsrs      ///
+  ///   deve ser obrigat√≥riamente adiconado no arrayNomes,          ///
+  ///   E os mesmo est√£o ordenados no estilo                        ///
+  ///   "Batalha Naval" continue com o padr√£o por favor rsrsrs      ///
   ///                                                               ///
   /////////////////////////////////////////////////////////////////////
