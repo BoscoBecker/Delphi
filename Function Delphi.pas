@@ -28,15 +28,15 @@ const
   ///   na Linha 4928, depois os array's                            ///
   ///   arrayPrefixo e o arrayNomes                                 ///
   ///   Cada prefixo adicionado no array arrayPrefixo,              ///
-  ///   deve ser obrigatÛriamente adiconado no arrayNomes,          ///
-  ///   E os mesmo est„o ordenados no estilo                        ///
-  ///   "Batalha Naval" continue com o padr„o por favor rsrsrs      ///
+  ///   deve ser obrigat√≥riamente adiconado no arrayNomes,          ///
+  ///   E os mesmo est√£o ordenados no estilo                        ///
+  ///   "Batalha Naval" continue com o padr√£o por favor rsrsrs      ///
   ///                                                               ///
   /////////////////////////////////////////////////////////////////////
 
   {$endregion}
 
- {$region ' Array que contÈm os Prefixo ...  ' }
+ {$region ' Array que cont√©m os Prefixo ...  ' }
    arrayPrefixo : array[0..219] of string = ('sai'              ,'transf'             ,'tpp'                   ,'prod'                       ,
                                             'licit'             ,'entra'              ,'ped'                   ,'proc'                       ,
                                             'oc'                ,'g'                  ,'embalag'               ,'num'                        ,
@@ -94,63 +94,63 @@ const
                                             'codsec'            ,'nomsec'             ,'observacoes'           ,'inss'                       ) ;
  {$endregion}
 
- {$region ' Array que contÈm os Novos Nomes ... '  }
+ {$region ' Array que cont√©m os Novos Nomes ... '  }
 
-  arrayNomes: array[0..219] of string = ('SaÌda'               ,'TransferÍncia'        ,'Tipo do Produto'       ,'Produto'                   ,
-                                         'LicitaÁ„o'            ,'Entrada'              ,'Pedido'                ,'Processo'                  ,
+  arrayNomes: array[0..219] of string = ('Sa√≠da'               ,'Transfer√™ncia'        ,'Tipo do Produto'       ,'Produto'                   ,
+                                         'Licita√ß√£o'            ,'Entrada'              ,'Pedido'                ,'Processo'                  ,
                                          'Ordem de compra'      ,''                     ,'Embalagem'             ,'Numero'                    ,
-                                         'Quantidade'           ,'EndereÁo'             ,'Almoxarifado'          ,'Documento'                 ,
-                                         'Empresa'              ,'Filial'               ,'Tipo funcion·rio'      ,'AutorizaÁ„o de Empenho'    ,
-                                         'AutorizaÁ„o de Forne.','Nome'                 ,'Nome'                  ,'Valor'                     ,
-                                         'SÌmbolo'              ,'N˙mero do Documento'  ,'N˙mero e Digito'       ,'Nome e n˙mero'             ,
-                                         'N˙mero'               ,''                     ,'CÛdigo'                ,'CÛdigo'                    ,
-                                         'DescriÁ„o'            ,''                     ,'Nn˙mero Digito e Ano'  ,'Percentual'                ,
-                                         'Saldo'                ,'CÛdigo nome'          ,'Total'                 ,'Nome numero'               ,
-                                         'DÌgito'               ,'HistÛrico'            ,'Data'                  ,'Data'                      ,
+                                         'Quantidade'           ,'Endere√ßo'             ,'Almoxarifado'          ,'Documento'                 ,
+                                         'Empresa'              ,'Filial'               ,'Tipo funcion√°rio'      ,'Autoriza√ß√£o de Empenho'    ,
+                                         'Autoriza√ß√£o de Forne.','Nome'                 ,'Nome'                  ,'Valor'                     ,
+                                         'S√≠mbolo'              ,'N√∫mero do Documento'  ,'N√∫mero e Digito'       ,'Nome e n√∫mero'             ,
+                                         'N√∫mero'               ,''                     ,'C√≥digo'                ,'C√≥digo'                    ,
+                                         'Descri√ß√£o'            ,''                     ,'Nn√∫mero Digito e Ano'  ,'Percentual'                ,
+                                         'Saldo'                ,'C√≥digo nome'          ,'Total'                 ,'Nome numero'               ,
+                                         'D√≠gito'               ,'Hist√≥rico'            ,'Data'                  ,'Data'                      ,
                                          'Documento'            ,'Valor Total'          ,'Saldo Total'           ,'Tipo'                      ,
                                          'Quantidade'           ,'Sequencial'           ,'Ordem de Compra'       ,'Ordem de compra Item'      ,
                                          'Ano'                  ,''                     ,'Tipo'                  ,'Compras'                   ,
-                                         'MÍs'                  ,'Contrato'             ,'OperaÁ„o'              ,'DescriÁ„o'                 ,
-                                         'DevoluÁ„o'            ,'Julgamento'           ,'DotaÁ„o'               ,'Tipo documento'            ,
-                                         'Invent·rio'           ,'AutorizaÁ„o'          ,'Contabilizado'         ,'CrÈdito'                   ,
-                                         'DÈbito'               ,'Secretaria'           ,''                      ,'AgÍncia'                   ,
-                                         'Conta banc·ria'       ,'ServiÁo'              ,'ObservaÁ„o'            ,''                          ,
+                                         'M√™s'                  ,'Contrato'             ,'Opera√ß√£o'              ,'Descri√ß√£o'                 ,
+                                         'Devolu√ß√£o'            ,'Julgamento'           ,'Dota√ß√£o'               ,'Tipo documento'            ,
+                                         'Invent√°rio'           ,'Autoriza√ß√£o'          ,'Contabilizado'         ,'Cr√©dito'                   ,
+                                         'D√©bito'               ,'Secretaria'           ,''                      ,'Ag√™ncia'                   ,
+                                         'Conta banc√°ria'       ,'Servi√ßo'              ,'Observa√ß√£o'            ,''                          ,
                                          'Bairro'               ,'Estado'               ,'Logradouro'            , 'Tipo local'               ,
-                                         'MunicÌpio'            ,'HabilitaÁ„o Documento','Documento Funcion·rio' ,'Fornecedor LicitaÁ„o'      ,
-                                         'LicitaÁ„o Item'       ,'Valor Total'          ,'Percentual'            ,'Valor Unit·rio'            ,
-                                         'F·brica'              ,'Empresa de Pequeno Porte','Micro Empresa'      ,'Certid„o Negativa de DÈbitos Trabalhistas',
-                                         'SolicitaÁ„o'          ,'F·brica'              ,'AutorizaÁ„o para Impress„o de Documentos Fiscais', 'Nota Fiscal'   ,
-                                         ''                     ,'SolicitaÁ„o'          ,'SolicitaÁ„o Item'      ,'PublicaÁ„o'                ,
-                                         'VigÍncia'             ,'Cadastro Funcion·rio' ,'Vende'                 ,'PrevidÍncia'               ,
-                                         'Tipo de Folha'        ,'Identidade'           ,'Categoria Trabalhista' ,'Profiss„o'                 ,
-                                         'Funcion·rio'          ,'OcorrÍncia'           ,'Arrendondamento'       ,''                          ,
+                                         'Munic√≠pio'            ,'Habilita√ß√£o Documento','Documento Funcion√°rio' ,'Fornecedor Licita√ß√£o'      ,
+                                         'Licita√ß√£o Item'       ,'Valor Total'          ,'Percentual'            ,'Valor Unit√°rio'            ,
+                                         'F√°brica'              ,'Empresa de Pequeno Porte','Micro Empresa'      ,'Certid√£o Negativa de D√©bitos Trabalhistas',
+                                         'Solicita√ß√£o'          ,'F√°brica'              ,'Autoriza√ß√£o para Impress√£o de Documentos Fiscais', 'Nota Fiscal'   ,
+                                         ''                     ,'Solicita√ß√£o'          ,'Solicita√ß√£o Item'      ,'Publica√ß√£o'                ,
+                                         'Vig√™ncia'             ,'Cadastro Funcion√°rio' ,'Vende'                 ,'Previd√™ncia'               ,
+                                         'Tipo de Folha'        ,'Identidade'           ,'Categoria Trabalhista' ,'Profiss√£o'                 ,
+                                         'Funcion√°rio'          ,'Ocorr√™ncia'           ,'Arrendondamento'       ,''                          ,
                                          ''                     ,''                     ,''                      ,''                          ,
                                          ''                     ,''                     ,''                      ,''                          ,
                                          ''                     ,''                     ,''                      ,''                          ,
-                                         ''                     ,''                     ,'Documento'             ,'Sal·rio FamÌlia'           ,
-                                         'Sal·rio FamÌlia'      ,'SituaÁ„o'             ,'Data'                  ,'AquisiÁ„o'                 ,
-                                         'Tipo'                 ,'UltÌmo'               ,'Carterira de motorista','Vencimento'                ,
-                                         'OrÁamento'            ,''                     ,'Hora Abastecimento'    ,'Ordem Reforma'             ,
-                                         'Respons·vel'          ,'FabricaÁ„o'           ,'VeÌculo'               ,'CombustÌvel'               ,
+                                         ''                     ,''                     ,'Documento'             ,'Sal√°rio Fam√≠lia'           ,
+                                         'Sal√°rio Fam√≠lia'      ,'Situa√ß√£o'             ,'Data'                  ,'Aquisi√ß√£o'                 ,
+                                         'Tipo'                 ,'Ult√≠mo'               ,'Carterira de motorista','Vencimento'                ,
+                                         'Or√ßamento'            ,''                     ,'Hora Abastecimento'    ,'Ordem Reforma'             ,
+                                         'Respons√°vel'          ,'Fabrica√ß√£o'           ,'Ve√≠culo'               ,'Combust√≠vel'               ,
                                          'Apensados'            ,'Assunto'              ,'Documento Produto'     ,'Tramite'                   ,
-                                         'Principal'            ,'Caminho'              ,'ProvidÍncia'           ,'CÛdigo'                    ,
-                                         'ManutenÁ„o'           ,'Quantidade'           ,'HomologaÁ„o'           ,'HabilitaÁ„o'               ,
-                                         ''                     ,'LicitaÁ„o'            ,'ConvÍnio'              ,'SubfunÁ„o'                 ,
-                                         'Org„o'                ,'FunÁ„o'               ,'AÁ„o'                  ,'OrÁament·ria'              ,
-                                         'EndereÁo'             ,'AgÍncia'              ,'OrÁamento'             ,'Unit·rio'                  ,
-                                         'Õndice'               ,'ApropriaÁ„o'          ,'LÌquido'               ,'ClassificaÁ„o'             ,
-                                         'OrÁado'               ,'HomologaÁ„o'          ,''                      ,'LegislaÁ„o'                ,
-                                         'IntraorÁament·rio'    ,'PPA'                  ,'AtÈ'                   ,'Total'                     ,
-                                         'AplicaÁ„o'            ,'ReferÍncia'           ,'DiferÍnÁa'             ,'LRF'                       ,
-                                         'NÌvel'                ,'OrÁada'               ,'veÌculo'               ,'SÈrie'                     ,
-                                         'Inclus„o'             ,'MovimentaÁ„o'         ,'Divis„o'               ,'Situac„o'                  ,
-                                         'Admiss„o'             ,'Demiss„o'             ,'Padr„o'                ,'Valor Incidi INSS Normal'  ,
+                                         'Principal'            ,'Caminho'              ,'Provid√™ncia'           ,'C√≥digo'                    ,
+                                         'Manuten√ß√£o'           ,'Quantidade'           ,'Homologa√ß√£o'           ,'Habilita√ß√£o'               ,
+                                         ''                     ,'Licita√ß√£o'            ,'Conv√™nio'              ,'Subfun√ß√£o'                 ,
+                                         'Org√£o'                ,'Fun√ß√£o'               ,'A√ß√£o'                  ,'Or√ßament√°ria'              ,
+                                         'Endere√ßo'             ,'Ag√™ncia'              ,'Or√ßamento'             ,'Unit√°rio'                  ,
+                                         '√çndice'               ,'Apropria√ß√£o'          ,'L√≠quido'               ,'Classifica√ß√£o'             ,
+                                         'Or√ßado'               ,'Homologa√ß√£o'          ,''                      ,'Legisla√ß√£o'                ,
+                                         'Intraor√ßament√°rio'    ,'PPA'                  ,'At√©'                   ,'Total'                     ,
+                                         'Aplica√ß√£o'            ,'Refer√™ncia'           ,'Difer√™n√ßa'             ,'LRF'                       ,
+                                         'N√≠vel'                ,'Or√ßada'               ,'ve√≠culo'               ,'S√©rie'                     ,
+                                         'Inclus√£o'             ,'Movimenta√ß√£o'         ,'Divis√£o'               ,'Situac√£o'                  ,
+                                         'Admiss√£o'             ,'Demiss√£o'             ,'Padr√£o'                ,'Valor Incidi INSS Normal'  ,
                                          'Instituto'            ,'IRRF'                 ,'CPF'                   ,'CNPJ'                      ,
-                                         'DÈcimo Terceiro 13∫'  ,'Previs„o'             ,'Abono FÈrias'          ,'DescriÁ„o'                 ,
-                                         'MÈdico'               ,'PIS'                  ,'Aposentado'            ,'Aposentado'                ,
-                                         'ApÛs'                 ,'Hora'                 ,'Admitido'              ,'Afastado'                  ,
+                                         'D√©cimo Terceiro 13¬∫'  ,'Previs√£o'             ,'Abono F√©rias'          ,'Descri√ß√£o'                 ,
+                                         'M√©dico'               ,'PIS'                  ,'Aposentado'            ,'Aposentado'                ,
+                                         'Ap√≥s'                 ,'Hora'                 ,'Admitido'              ,'Afastado'                  ,
                                          'Trabalho'             ,'Ativo'                ,'Tipo Moeda'            ,'Nomeacao'                  ,
-                                         'CÛdigo Secretaria'    ,'Nome Secretaria'      ,'Observacıes'           ,'INSS'                      ) ;   
+                                         'C√≥digo Secretaria'    ,'Nome Secretaria'      ,'Observac√µes'           ,'INSS'                      ) ;   
  {$endregion}
 
 var txt: String;
@@ -190,7 +190,7 @@ Begin
          break;
        end;
      end;
-     // Primeira letra mai˙scula da cadeia de String...
+     // Primeira letra mai√∫scula da cadeia de String...
      if not(boo) then
      Begin
        arrayStr[ii] := UPPERCASE(Copy(arrayStr[ii], 1, 1)) + LowerCase(Copy(arrayStr[ii], 2, Length(arrayStr[ii])));
@@ -209,19 +209,19 @@ Begin
   end;
 Begin
 
-  /// Leia  o coment·rio da FunÁ„o ProcuraPrefixo
+  /// Leia  o coment√°rio da Fun√ß√£o ProcuraPrefixo
   /// antes de alterar qualquer coisa, por favor ..........................
-  /// FunÁıes feitas por Jo„o Bosco dos Reis Becker & Eduardo JosÈ Effgen,
-  /// funÁıes usadas nos dicion·rios de Dados.
+  /// Fun√ß√µes feitas por Jo√£o Bosco dos Reis Becker & Eduardo Jos√© Effgen,
+  /// fun√ß√µes usadas nos dicion√°rios de Dados.
   /// Antes
   /// Ex :  cod_pano_conta
   /// Depois
-  /// Ex :  CÛdigo Plano Conta
+  /// Ex :  C√≥digo Plano Conta
   /// Functions Feitas em : 18/10/2015 }
 
 
-  Result := ProcuraPrefixo; //Percores os Array's em procura do prefixo do campo, e o altera com o nome referente ao Prefixo EX: "cod_emp" se terna - "CÛdigo Empresa"
-  Result := TrimRight(TrimLeft(Result)); // Retira os espaÁos da Direita e da Esquerda.
-  Result := StringReplace(Result,'  ',' ',[rfReplaceAll ]); // Retira Dois espaÁos e coloca apenas Um.
-  Result := funTroca(Result);   // Tr·s o campo com as primeiras letras em mai˙sculo EX : Jo„o Bosco
+  Result := ProcuraPrefixo; //Percores os Array's em procura do prefixo do campo, e o altera com o nome referente ao Prefixo EX: "cod_emp" se terna - "C√≥digo Empresa"
+  Result := TrimRight(TrimLeft(Result)); // Retira os espa√ßos da Direita e da Esquerda.
+  Result := StringReplace(Result,'  ',' ',[rfReplaceAll ]); // Retira Dois espa√ßos e coloca apenas Um.
+  Result := funTroca(Result);   // Tr√°s o campo com as primeiras letras em mai√∫sculo EX : Jo√£o Bosco
 end;2,0
